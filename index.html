@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weatherApp">
+        <div class="cityData part">
+          <input
+            type="text"
+            placeholder="your city ?"
+            id="searchInp"
+            value="Riyadh"
+          />
+          <button id="searchBtn" for="searchInp">
+            <img src="media/search.png" alt="" />
+          </button>
+        </div>
+        <div class="data">
+          <figure class="tempreture part" id="tempreturePart">
+            <!-- <img class="weatherStatus" src="" alt="" /> -->
+          </figure>
+          <div class="headData">
+            <div>
+              <h2 id="temNum" class="temNum">Name</h2>
+              <span>°C</span>
+            </div>
+            <h2 id="cityName" class="cityName">Name</h2>
+          </div>
+          <div class="otherData part">
+            <div class="addData">
+              <img src="media/wind.png" class="otherDataLogo" alt="" />
+              <div>
+                <h4 id="windSpeed">4.5</h4>
+                <h3>Wind Speed</h3>
+              </div>
+            </div>
+            <div class="addData">
+              <img src="media/humidity.png" class="otherDataLogo" alt="" />
+              <div class="">
+                <h4 id="humidity">5.5</h4>
+                <h3>Humidity</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/scriptTest.js"></script>
+    <script src="js/note.js"></script>
+  </body>
+</html>

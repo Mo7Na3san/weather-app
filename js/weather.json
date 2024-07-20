@@ -1,0 +1,30 @@
+{
+  "coord": { "lon": 50.1033, "lat": 26.4344 },
+  "weather": [
+    { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01n" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 290.21,
+    "feels_like": 289.72,
+    "temp_min": 289.23,
+    "temp_max": 290.21,
+    "pressure": 1020,
+    "humidity": 67
+  },
+  "visibility": 10000,
+  "wind": { "speed": 1.54, "deg": 0 },
+  "clouds": { "all": 0 },
+  "dt": 1705948088,
+  "sys": {
+    "type": 1,
+    "id": 7406,
+    "country": "SA",
+    "sunrise": 1705894085,
+    "sunset": 1705932807
+  },
+  "timezone": 10800,
+  "id": 110336,
+  "name": "Dammam",
+  "cod": 200
+}
